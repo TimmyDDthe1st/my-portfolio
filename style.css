@@ -1,3 +1,47 @@
-body {
-    background-color: deeppink;
+nav {
+
+    background-color: #1A535C;
+}
+
+li {
+    list-style: none;
+}
+
+li a {
+    color: #F7FFF7;
+}
+
+.flex-container {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    
+    -ms-box-orient: horizontal;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -moz-flex;
+    display: -webkit-flex;
+    display: flex;
+  }
+
+  .flex-item {
+    background: tomato;
+    padding: 5px;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    
+    line-height: 100px;
+    color: white;
+    font-weight: bold;
+    font-size: 2em;
+    text-align: center;
+  }
+
+.nav-link-top {
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: #4ECDC4;
+    text-decoration: none;
 }
