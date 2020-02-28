@@ -1,2 +1,29 @@
+* {
+    font-family: Nunito, Raleway;
+}
 
+img, embed, object, video {
+    max-width: 100%;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.topnav {
+    background-color: grey;
+}
+
+@media only screen and (max-width: 340px) {
+    .flex-container {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+    }
+}
   
