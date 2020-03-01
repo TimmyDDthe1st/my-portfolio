@@ -1,10 +1,11 @@
 * {
-    font-family: Nunito, Raleway;
+    font-family: Roboto Mono, Nunito, Raleway;
 }
 
 img, embed, object, video {
     padding: 10px;
     max-width: 100%;
+    border-radius: 50%;
 }
 
 nav a {
@@ -22,6 +23,7 @@ nav a {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
+    align-items: center;
 }
 
 .topnav {
