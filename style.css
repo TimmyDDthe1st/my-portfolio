@@ -12,7 +12,7 @@ nav a {
     display: flex;
     text-decoration: none;
     font-size: 1em;
-    padding: 1px;
+    padding: 1px 60px 1px 50px;
     margin: 5px;
     text-align: justify;
     color: white;
@@ -27,15 +27,15 @@ nav a {
 }
 
 .topnav {
-    background-color: #9AADBF;
-    box-shadow: 5px 5px 9px 0px rgba(0,0,0,0.15);
+    background-color: #330F0A;
+    box-shadow: 5px 5px 9px 0px rgba(0,0,0,0.50);
 }
 
 .bottomnav a{
     color: black;
 }
 
-@media only screen and (max-width: 470px) {
+@media only screen and (max-width: 1000px) {
     .flex-container {
         display: flex;
         flex-direction: column;
