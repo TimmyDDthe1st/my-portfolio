@@ -6,6 +6,7 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto Mono|Nunito|Raleway&display=swap" rel="stylesheet">    
     <link rel="stylesheet" type="text/css" href="./styles/main.css">
     <link rel="stylesheet" type="text/css" href="./styles/form.css">
+    <script src="js/main.js"></script>
     <title>Contact Me</title>
 </head>
 <body>
@@ -18,7 +19,7 @@
     </header>
 
     <main>
-        <form action="#" class="flex-container-column">
+        <form action="#" class="flex-container-column" id="contact-form">
             <label for="name">Name:</label>
                 <input type="text" placeholder="Name..." id="name"></input>
             <label for="email">Email:</label>
@@ -26,7 +27,7 @@
             <label for="message">Message:</label>
                 <input type="text" placeholder="Your Message..." id="message"></input>
             <div>
-                <button type="submit" class="boxshadow">Submit</button>
+                <button type="submit" class="boxshadow" onclick="SubmitForm()">Submit</button>
                 <button type="reset" class="btn-clear boxshadow">Clear</button>
             </div>
         </form>
