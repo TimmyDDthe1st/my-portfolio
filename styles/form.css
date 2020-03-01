@@ -1,0 +1,28 @@
+form {
+    margin:auto;
+    position:relative;
+    padding: 50px;
+}
+
+label {
+    border-bottom: 1px solid black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+input {
+    padding-top: 10px;
+    width: 30%;
+    height: 10%;
+    text-align: left;
+}
+
+button {
+    padding: 10px;
+    margin-top: 20px;
+    background-color: #CBEAA6;
+}
+
+.btn-clear {
+    background-color: #A7333F;
+}
