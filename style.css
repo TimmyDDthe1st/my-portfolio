@@ -3,7 +3,18 @@
 }
 
 img, embed, object, video {
+    padding: 10px;
     max-width: 100%;
+}
+
+nav a {
+    display: flex;
+    text-decoration: none;
+    font-size: 1em;
+    padding: 1px;
+    margin: 5px;
+    text-align: justify;
+    color: white;
 }
 
 .flex-container {
@@ -14,10 +25,15 @@ img, embed, object, video {
 }
 
 .topnav {
-    background-color: grey;
+    background-color: #9AADBF;
+    box-shadow: 5px 5px 9px 0px rgba(0,0,0,0.15);
 }
 
-@media only screen and (max-width: 340px) {
+.bottomnav a{
+    color: black;
+}
+
+@media only screen and (max-width: 470px) {
     .flex-container {
         display: flex;
         flex-direction: column;
